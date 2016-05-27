@@ -6,7 +6,8 @@ CREATE TABLE IF NOT EXISTS universidad (nombre VARCHAR(200) PRIMARY KEY,
 	ciudad TEXT,
 	email TEXT);
 
-/* Spanish Universities */
+/* Spanish Universities (2015) */
+
 /* Some emails are not correct */
 
 INSERT INTO universidad VALUES ("IE Universidad", 921412410, "Cardenal Zúñiga 12", "Segovia", "university@ie.edu");
