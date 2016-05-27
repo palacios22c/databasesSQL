@@ -1,15 +1,13 @@
-/* @creaTable_universidad.sql */
+/* @create_universidad.sql */
 
-USE trabajoBBDD;
-
-/* Tabla universidad */
 CREATE TABLE IF NOT EXISTS universidad (nombre VARCHAR(200) PRIMARY KEY,
 	telefono INTEGER,
 	direccion TEXT,
 	ciudad TEXT,
 	email TEXT);
 
-/* Datos de universidades */
+/* Spanish Universities */
+/* Some emails are not correct */
 
 INSERT INTO universidad VALUES ("IE Universidad", 921412410, "Cardenal Zúñiga 12", "Segovia", "university@ie.edu");
 INSERT INTO universidad VALUES ("Mondragon Unibertsitatea", 943712185, "Loramendi 4", "Mondragón", "");
@@ -19,7 +17,7 @@ INSERT INTO universidad VALUES ("Universidad Autónoma de Madrid", 914975100, "C
 INSERT INTO universidad VALUES ("Universidad Camilo José Cela", 918153131, "Castillo de Alarcón 49", "Villanueva de la Cañada", "info@ucjc.edu");
 INSERT INTO universidad VALUES ("Universidad Cardenal Herrera", 961369000, "Avenida Seminario s/n", "Moncada", "informa@uch.ceu.es");
 INSERT INTO universidad VALUES ("Universidad Carlos III", 916249500, "Calle Madrid 126", "Getafe", "futurosestudiantes@uc3m.es");
-INSERT INTO universidad VALUES ("Universidad Católica de Ávila", 920251020, "Calle de los Canteros", "Ávila", "");
+INSERT INTO universidad VALUES ("Universidad Católica de Ávila", 920251020, "Calle de los Canteros", "Ávila", "");
 INSERT INTO universidad VALUES ("Universidad Católica de Valencia San Vicente Mártir", 963637412, "Calle de Quevedo 2", "Valencia", "");
 INSERT INTO universidad VALUES ("Universidad Católica San Antonio", 968278801, "Av de los Jerónimos 135", "Murcia", "info@ucam.edu");
 INSERT INTO universidad VALUES ("Universidad CEU San Pablo", 915140404, "Calle Julián Romea 18", "Madrid", "");
