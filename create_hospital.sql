@@ -1,6 +1,6 @@
 /* @create_hospital.sql */
 
-/* Data about Spanish hospitals */
+/* Data about Spanish hospitals (2015) */
 
 /* Tabla hospital */
 CREATE TABLE IF NOT EXISTS hospital (idHosp INTEGER PRIMARY KEY,
