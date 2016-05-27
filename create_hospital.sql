@@ -1,6 +1,6 @@
-/* @creaTable_hospital.sql */
+/* @create_hospital.sql */
 
-USE trabajoBBDD;
+/* Data about Spanish hospitals */
 
 /* Tabla hospital */
 CREATE TABLE IF NOT EXISTS hospital (idHosp INTEGER PRIMARY KEY,
@@ -9,9 +9,7 @@ CREATE TABLE IF NOT EXISTS hospital (idHosp INTEGER PRIMARY KEY,
     provincia CHAR(50),
     tfno CHAR(9),
     email CHAR(100),
-    titularidad BOOLEAN); /* Consideramos 0 = Privado y 1 = Público */
-
-/* Introducir los datos del hospital. */
+    titularidad BOOLEAN); /* 0 = Non Public & 1 = Public */
 
 INSERT INTO hospital VALUES(10035, "RED DE SALUD MENTAL DE ARABA (HOSPITAL PSIQUIÁTRICO DE ÁLAVA)", "Álava, 43", "ÁLAVA", 945006555, "secretariagerencia.sma@osakidetza.net", 1);
 INSERT INTO hospital VALUES(10040, "HOSPITAL SAN JOSÉ", "Beato Tomás de Zumarraga, 10", "ÁLAVA", 945140900, "diazdecorcueram@vithas.es", 0);
