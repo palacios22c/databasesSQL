@@ -48,10 +48,14 @@ INSERT INTO universidad VALUES ("Universidad de Sevilla", 954551146, "San Fernan
 INSERT INTO universidad VALUES ("Universidad de Valladolid", 0, "Plaza de Sta Cruz 8", "Valladolid", "soporte@uva.es");
 INSERT INTO universidad VALUES ("Universidad de Zaragoza", 976761001, "Pedro Cerbuna 12", "Zaragoza", "ciu@unizar.es");
 INSERT INTO universidad VALUES ("Universidad del País Vasco / Euskal Herriko Unibertsitatea", 946012000, "Barrio Sarriena s/n", "Leioa", "");
+INSERT INTO universidad VALUES ("Universidad Eclesiástica San Dámaso", 913644010, "Calle Jerte, 10", "Madrid", "");
 INSERT INTO universidad VALUES ("Universidad Europea de Madrid", 902232350, "Calle Tajo s/n", "Villaviciosa de Odón", "uem@uem.es");
 INSERT INTO universidad VALUES ("Universidad Europea Miguel de Cervantes", 983001000, "Padre Julio Chevalier 2", "Valladolid", "info@uemc.es");
 INSERT INTO universidad VALUES ("Universidad Francisco de Vitoria", 917091400, "Ctra. Pozuelo - Majadahonda km 18", "Pozuelo de Alarcón", "webmaster@ufv.es");
 INSERT INTO universidad VALUES ("Universidad Internacional de Andalucía", 954462299, "Calle Américo Vespucio 2", "Sevilla", "sevilla@unia.es");
+INSERT INTO universidad VALUES ("Universidad Internacional de La Rioja", 941209743, "Gran Vía Rey Juan Carlos I, 41", "Logroño", "info@unir.net");
+INSERT INTO universidad VALUES ("Universidad Internacional de Valencia", 960968126, "Gorgos, 5-7", "Valencia", "");
+INSERT INTO universidad VALUES ("Universidad Isabel I", 947671731, "Calle Fernán González, 76", "Burgos", "");
 INSERT INTO universidad VALUES ("Universidad Internacional Menéndez Pelayo", 915920600, "Isaac Peral 23", "Madrid", "");
 INSERT INTO universidad VALUES ("Universidad Miguel Hernández de Elche", 966658500, "Avenida de la Universidad s/n", "Elche", "info@umh.es");
 INSERT INTO universidad VALUES ("Universidad Nebrija", 914521100, "Calle de los Pirineos  55", "Madrid", "informa@nebrija.es");
