@@ -14,6 +14,7 @@ INSERT INTO universidad VALUES ("IE Universidad", 921412410, "Cardenal Zúñiga 
 INSERT INTO universidad VALUES ("Mondragon Unibertsitatea", 943712185, "Loramendi 4", "Mondragón", "");
 INSERT INTO universidad VALUES ("Universidad a Distancia de Madrid", 902020003, "Camino de la Fonda 20", "Collado Villalba", "josei.lopez@cef.es");
 INSERT INTO universidad VALUES ("Universidad Alfonso X El Sabio", 902100868, "Avenida Universidad 1", "Villanueva de la Cañada", "sabados@uax.es");
+INSERT INTO universidad VALUES ("Universidad Antonio de Nebrija", 914521100, "Calle de los Pirineos  55", "Madrid", "informa@nebrija.es");
 INSERT INTO universidad VALUES ("Universidad Autónoma de Madrid", 914975100, "Ctra de Colmenar km 15", "Madrid", "informacion.general@uam.es");
 INSERT INTO universidad VALUES ("Universidad Camilo José Cela", 918153131, "Castillo de Alarcón 49", "Villanueva de la Cañada", "info@ucjc.edu");
 INSERT INTO universidad VALUES ("Universidad Cardenal Herrera", 961369000, "Avenida Seminario s/n", "Moncada", "informa@uch.ceu.es");
@@ -64,7 +65,6 @@ INSERT INTO universidad VALUES ("Universidad Internacional Menéndez Pelayo", 91
 INSERT INTO universidad VALUES ("Universidad Isabel I", 947671731, "Calle Fernán González, 76", "Burgos", "");
 INSERT INTO universidad VALUES ("Universidad Loyola Andalucía", 955641600, "Calle Energía Solar, 1", "Sevilla", "loyolaresponde@uloyola.es");
 INSERT INTO universidad VALUES ("Universidad Miguel Hernández de Elche", 966658500, "Avenida de la Universidad s/n", "Elche", "info@umh.es");
-INSERT INTO universidad VALUES ("Universidad Nebrija", 914521100, "Calle de los Pirineos  55", "Madrid", "informa@nebrija.es");
 INSERT INTO universidad VALUES ("Universidad Pablo de Olavide", 954349200, "Carretera de Utrera km. 1", "Sevilla", "ualumnos@upo.es");
 INSERT INTO universidad VALUES ("Universidad Politécnica de Cartagena", 968325400, "Plaza del Cronista Isidoro Valverde s/n", "Cartagena", "gestion.academica@upct.es");
 INSERT INTO universidad VALUES ("Universidad Politécnica de Madrid", 913366000, "Ramiro de Maeztu 7", "Madrid", "");
