@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS universidad (nombre VARCHAR(200) PRIMARY KEY,
 	ciudad TEXT,
 	email TEXT);
 
-/* Spanish Universities (2015) */
+/* Spanish Universities (2016) */
 
 /* Some emails are not correct */
 
@@ -49,14 +49,20 @@ INSERT INTO universidad VALUES ("Universidad de Valladolid", 0, "Plaza de Sta Cr
 INSERT INTO universidad VALUES ("Universidad de Zaragoza", 976761001, "Pedro Cerbuna 12", "Zaragoza", "ciu@unizar.es");
 INSERT INTO universidad VALUES ("Universidad del País Vasco / Euskal Herriko Unibertsitatea", 946012000, "Barrio Sarriena s/n", "Leioa", "");
 INSERT INTO universidad VALUES ("Universidad Eclesiástica San Dámaso", 913644010, "Calle Jerte, 10", "Madrid", "");
+INSERT INTO universidad VALUES ("Universidad Europea de Canarias", 922985050 , "Calle Inocencio García 1", "La Orotava", "admisiones.canarias@universidadeuropea.es");
 INSERT INTO universidad VALUES ("Universidad Europea de Madrid", 902232350, "Calle Tajo s/n", "Villaviciosa de Odón", "uem@uem.es");
+INSERT INTO universidad VALUES ("Universidad Europea de Valencia", 963699467, "Avenida de Aragón, 30", "Valencia", "ads.valencia@universidadeuropea.es");
+INSERT INTO universidad VALUES ("Universidad Europea del Atlántico", 942244244, "Calle Isabel Torres 21", "Santander", "info@uneatlantico.es");
 INSERT INTO universidad VALUES ("Universidad Europea Miguel de Cervantes", 983001000, "Padre Julio Chevalier 2", "Valladolid", "info@uemc.es");
+INSERT INTO universidad VALUES ("Universidad Fernando Pessoa-Canarias", 928313420, "Calle Alcalde Francisco Hernández González, 28", "Santa Maria de Guía", "informacion@ufpcanarias.es");
 INSERT INTO universidad VALUES ("Universidad Francisco de Vitoria", 917091400, "Ctra. Pozuelo - Majadahonda km 18", "Pozuelo de Alarcón", "webmaster@ufv.es");
 INSERT INTO universidad VALUES ("Universidad Internacional de Andalucía", 954462299, "Calle Américo Vespucio 2", "Sevilla", "sevilla@unia.es");
+INSERT INTO universidad VALUES ("Universidad Internacional de Canarias", 828019019, "C/ Carvajal, 2", "Las Palmas de Gran Canaria", "");
 INSERT INTO universidad VALUES ("Universidad Internacional de La Rioja", 941209743, "Gran Vía Rey Juan Carlos I, 41", "Logroño", "info@unir.net");
 INSERT INTO universidad VALUES ("Universidad Internacional de Valencia", 960968126, "Gorgos, 5-7", "Valencia", "");
-INSERT INTO universidad VALUES ("Universidad Isabel I", 947671731, "Calle Fernán González, 76", "Burgos", "");
 INSERT INTO universidad VALUES ("Universidad Internacional Menéndez Pelayo", 915920600, "Isaac Peral 23", "Madrid", "");
+INSERT INTO universidad VALUES ("Universidad Isabel I", 947671731, "Calle Fernán González, 76", "Burgos", "");
+INSERT INTO universidad VALUES ("Universidad Loyola Andalucía", 955641600, "Calle Energía Solar, 1", "Sevilla", "loyolaresponde@uloyola.es");
 INSERT INTO universidad VALUES ("Universidad Miguel Hernández de Elche", 966658500, "Avenida de la Universidad s/n", "Elche", "info@umh.es");
 INSERT INTO universidad VALUES ("Universidad Nebrija", 914521100, "Calle de los Pirineos  55", "Madrid", "informa@nebrija.es");
 INSERT INTO universidad VALUES ("Universidad Pablo de Olavide", 954349200, "Carretera de Utrera km. 1", "Sevilla", "ualumnos@upo.es");
