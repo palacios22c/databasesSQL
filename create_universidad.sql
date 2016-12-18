@@ -65,6 +65,7 @@ INSERT INTO universidad VALUES ("Universidad Internacional Menéndez Pelayo", 91
 INSERT INTO universidad VALUES ("Universidad Isabel I", 947671731, "Calle Fernán González, 76", "Burgos", "");
 INSERT INTO universidad VALUES ("Universidad Loyola Andalucía", 955641600, "Calle Energía Solar, 1", "Sevilla", "loyolaresponde@uloyola.es");
 INSERT INTO universidad VALUES ("Universidad Miguel Hernández de Elche", 966658500, "Avenida de la Universidad s/n", "Elche", "info@umh.es");
+INSERT INTO universidad VALUES ("Universidad Nacional de Educación a Distancia", 91398600, "Calle Bravo Murillo, 38", "Madrid", "infouned@adm.uned.es");
 INSERT INTO universidad VALUES ("Universidad Pablo de Olavide", 954349200, "Carretera de Utrera km. 1", "Sevilla", "ualumnos@upo.es");
 INSERT INTO universidad VALUES ("Universidad Politécnica de Cartagena", 968325400, "Plaza del Cronista Isidoro Valverde s/n", "Cartagena", "gestion.academica@upct.es");
 INSERT INTO universidad VALUES ("Universidad Politécnica de Madrid", 913366000, "Ramiro de Maeztu 7", "Madrid", "");
