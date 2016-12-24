@@ -47,7 +47,7 @@ INSERT INTO universidad VALUES ("Universidad de Navarra", 948425600, "Campus Uni
 INSERT INTO universidad VALUES ("Universidad de Oviedo", 985103000, "Calle San Francisco", "Oviedo", "coie@rectorado.uniovi.es");
 INSERT INTO universidad VALUES ("Universidad de Salamanca", 923294400, "Calle de los Libreros 1", "Salamanca", "informacion@usal.es");
 INSERT INTO universidad VALUES ("Universidad de Sevilla", 954551146, "San Fernando 4", "Sevilla", "sos@us.es");
-INSERT INTO universidad VALUES ("Universidad de Valladolid", 0, "Plaza de Sta Cruz 8", "Valladolid", "soporte@uva.es");
+INSERT INTO universidad VALUES ("Universidad de Valladolid", 983423000, "Plaza de Sta Cruz 8", "Valladolid", "valladolid@uva.es");
 INSERT INTO universidad VALUES ("Universidad de Zaragoza", 976761001, "Pedro Cerbuna 12", "Zaragoza", "ciu@unizar.es");
 INSERT INTO universidad VALUES ("Universidad del País Vasco / Euskal Herriko Unibertsitatea", 946012000, "Barrio Sarriena s/n", "Leioa", "rgzadmin@lg.ehu.es");
 INSERT INTO universidad VALUES ("Universidad Eclesiástica San Dámaso", 913644010, "Calle Jerte, 10", "Madrid", "secretaria.alumnos@sandamaso.es");
