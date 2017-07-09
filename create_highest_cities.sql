@@ -1,0 +1,118 @@
+/* @create_highest_cities.sql */
+
+/* Data about Highest cities in the world */
+
+/* Table: cities */
+CREATE TABLE IF NOT EXISTS cities (idCity INTEGER PRIMARY KEY,
+    name CHAR(40),
+    country CHAR(40),
+	altitude INTEGER); -- Altitude in meters
+
+INSERT INTO cities VALUES(1, "La Rinconada", "Perú", 5099);
+INSERT INTO cities VALUES(2, "Wenquan", "China", 5019);
+INSERT INTO cities VALUES(3, "Colquechaca", "Bolivia", 4692);
+INSERT INTO cities VALUES(4, "Ukdungle", "India", 4659);
+INSERT INTO cities VALUES(5, "Korzok", "India", 4595);
+INSERT INTO cities VALUES(6, "Komic", "India", 4587);
+INSERT INTO cities VALUES(7, "Tanggulashan", "China", 4587);
+INSERT INTO cities VALUES(8, "Pagri", "China", 4572);
+INSERT INTO cities VALUES(9, "Kurgiakh", "India", 4568);
+INSERT INTO cities VALUES(10, "Takh", "India", 4568);
+INSERT INTO cities VALUES(11, "Yelchang", "India", 4556);
+INSERT INTO cities VALUES(12, "Niagsu", "India", 4548);
+INSERT INTO cities VALUES(13, "Hanle", "India", 4500);
+INSERT INTO cities VALUES(14, "Parinacota", "Chile", 4400);
+INSERT INTO cities VALUES(15, "Cerro de Pasco", "Perú", 4380);
+INSERT INTO cities VALUES(16, "Mina Pirquitas", "Argentina", 4340);
+INSERT INTO cities VALUES(17, "Pairique Chico", "Argentina", 4340);
+INSERT INTO cities VALUES(18, "Demchok / Dêmqog", "India /  China", 4226);
+INSERT INTO cities VALUES(19, "Olaroz Chico", "Argentina", 4180);
+INSERT INTO cities VALUES(20, "Mina Providencia", "Argentina", 4161);
+INSERT INTO cities VALUES(21, "El Alto", "Bolivia", 4150);
+INSERT INTO cities VALUES(22, "Durbuk", "India", 4115);
+INSERT INTO cities VALUES(23, "El Cajas Azuay", "Ecuador", 4100);
+INSERT INTO cities VALUES(24, "Potosí", "Bolivia", 4090);
+INSERT INTO cities VALUES(25, "Nyoma", "India", 4054);
+INSERT INTO cities VALUES(26, "El Aguilar", "Argentina", 3981);
+INSERT INTO cities VALUES(27, "Dolpa", "Nepal", 3963);
+INSERT INTO cities VALUES(28, "Catua", "Argentina", 3950);
+INSERT INTO cities VALUES(29, "Coranzuli", "Argentina", 3940);
+INSERT INTO cities VALUES(30, "Lampa", "Perú", 3878);
+INSERT INTO cities VALUES(31, "Putina", "Perú", 3878);
+INSERT INTO cities VALUES(32, "Chucuito", "Perú", 3875);
+INSERT INTO cities VALUES(33, "Tiwanaku", "Bolivia", 3866);
+INSERT INTO cities VALUES(34, "Ilave", "Perú", 3862);
+INSERT INTO cities VALUES(35, "Azángaro", "Perú", 3859);
+INSERT INTO cities VALUES(36, "Rinconada", "Argentina", 3851);
+INSERT INTO cities VALUES(37, "Juli", "Perú", 3850);
+INSERT INTO cities VALUES(38, "Laya", "Bután", 3850);
+INSERT INTO cities VALUES(39, "Guaqui", "Bolivia", 3848);
+INSERT INTO cities VALUES(40, "Huarina", "Bolivia", 3847);
+INSERT INTO cities VALUES(41, "Yunguyo", "Perú", 3847);
+INSERT INTO cities VALUES(42, "Huancané", "Perú", 3841);
+INSERT INTO cities VALUES(43, "Copacabana", "Bolivia", 3840);
+INSERT INTO cities VALUES(44, "Juliaca", "Perú", 3825);
+INSERT INTO cities VALUES(45, "Puno", "Perú", 3819);
+INSERT INTO cities VALUES(46, "San Antonio de los Cobres", "Argentina", 3775);
+INSERT INTO cities VALUES(47, "Santa Catalina", "Argentina", 3770);
+INSERT INTO cities VALUES(48, "Olacapato", "Argentina", 3760);
+INSERT INTO cities VALUES(49, "Badrinath", "India", 3753);
+INSERT INTO cities VALUES(50, "La Oroya", "Perú", 3745);
+INSERT INTO cities VALUES(51, "Oruro", "Bolivia", 3706);
+INSERT INTO cities VALUES(52, "Gyêgu", "China", 3700);
+INSERT INTO cities VALUES(53, "Letras", "Colombia", 3700);
+INSERT INTO cities VALUES(54, "El Cóndor", "Argentina", 3687);
+INSERT INTO cities VALUES(55, "Lagunillas del Farallón", "Argentina", 3684);
+INSERT INTO cities VALUES(56, "Uyuni", "Bolivia", 3670);
+INSERT INTO cities VALUES(57, "Padum", "India", 3669);
+INSERT INTO cities VALUES(58, "Lhasa", "China", 3658);
+INSERT INTO cities VALUES(59, "Rangdum", "India", 3657);
+INSERT INTO cities VALUES(60, "Murghab", "Tayikistán", 3650);
+INSERT INTO cities VALUES(61, "Cangrejillos", "Argentina", 3645);
+INSERT INTO cities VALUES(62, "La Paz", "Bolivia", 3640);
+INSERT INTO cities VALUES(63, "Susques", "Argentina", 3620);
+INSERT INTO cities VALUES(64, "Pumahuasi", "Argentina", 3606);
+INSERT INTO cities VALUES(65, "Raíces", "México", 3531);
+INSERT INTO cities VALUES(66, "Yavi", "Argentina", 3516);
+INSERT INTO cities VALUES(67, "Abra Pampa", "Argentina", 3507);
+INSERT INTO cities VALUES(68, "Apartaderos", "Venezuela", 3506);
+INSERT INTO cities VALUES(69, "Leh", "India", 3505);
+INSERT INTO cities VALUES(70, "Putre", "Chile", 3500);
+INSERT INTO cities VALUES(71, "Mizma", "Etiopía", 3500);
+INSERT INTO cities VALUES(72, "Namache Bazaar", "Nepal", 3500);
+INSERT INTO cities VALUES(73, "San Juan del Sumapaz", "Colombia", 3450);
+INSERT INTO cities VALUES(74, "Villazón/La Quiaca", "Bolivia Argentina", 3442);
+INSERT INTO cities VALUES(75, "Chacas", "Perú", 3359);
+INSERT INTO cities VALUES(76, "Vetas", "Colombia", 3350);
+INSERT INTO cities VALUES(77, "Papallacta", "Ecuador", 3300);
+INSERT INTO cities VALUES(78, "Cuzco", "Perú", 3292);
+INSERT INTO cities VALUES(79, "Dras", "India", 3280);
+INSERT INTO cities VALUES(80, "Mocha", "Ecuador", 3264);
+INSERT INTO cities VALUES(81, "Alma", "Estados Unidos", 3224);
+INSERT INTO cities VALUES(82, "Glade Park Gateway", "Estados Unidos", 3220);
+INSERT INTO cities VALUES(83, "Ixchiguán", "Guatemala", 3200);
+INSERT INTO cities VALUES(84, "Cajabamba", "Ecuador", 3200);
+INSERT INTO cities VALUES(85, "Shimshal", "Pakistán", 3185);
+INSERT INTO cities VALUES(86, "Montezuma", "Estados Unidos", 3150);
+INSERT INTO cities VALUES(87, "Guachucal", "Colombia", 3180);
+INSERT INTO cities VALUES(88, "San Rafael de Mucuchíes", "Venezuela", 3140);
+INSERT INTO cities VALUES(89, "Cañar", "Ecuador", 3125);
+INSERT INTO cities VALUES(90, "Túquerres", "Colombia", 3104);
+INSERT INTO cities VALUES(91, "Jericó, Boyacá", "Colombia", 3100);
+INSERT INTO cities VALUES(92, "Villa Mills", "Costa Rica", 3100);
+INSERT INTO cities VALUES(93, "Leadville", "Estados Unidos", 3094);
+INSERT INTO cities VALUES(94, "Guamote", "Ecuador", 3060);
+INSERT INTO cities VALUES(95, "Blue River", "Estados Unidos", 3054);
+INSERT INTO cities VALUES(96, "Huancayo", "Perú", 3052);
+INSERT INTO cities VALUES(97, "Cumbal", "Colombia", 3050);
+INSERT INTO cities VALUES(98, "Cuaspud", "Colombia", 3050);
+INSERT INTO cities VALUES(99, "Aldana", "Colombia", 3050);
+INSERT INTO cities VALUES(100, "Huaraz", "Perú", 3050);
+INSERT INTO cities VALUES(101, "Mucuchíes", "Venezuela", 3050);
+INSERT INTO cities VALUES(102, "Hushe", "Pakistán", 3048);
+INSERT INTO cities VALUES(103, "Aquitania", "Colombia", 3042);
+INSERT INTO cities VALUES(104, "Pupiales", "Colombia", 3014);
+INSERT INTO cities VALUES(105, "Tausa", "Colombia", 3013);
+INSERT INTO cities VALUES(106, "El Ángel", "Ecuador", 3007);
+INSERT INTO cities VALUES(107, "Huaca", "Ecuador", 3000);
+INSERT INTO cities VALUES(108, "Mongua", "Colombia", 3000);
