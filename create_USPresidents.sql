@@ -6,16 +6,16 @@ CREATE TABLE IF NOT EXISTS USPresidents (ID INTEGER PRIMARY KEY,
 	middleName TEXT,
 	orderPresidency INTEGER,
 	dateBirth DATE,
-	dateDeath Date,
+	dateDeath DATE,
 	townCountyBirth TEXT,
 	stateBirth TEXT,
 	homeState TEXT,
 	partyAffiliation TEXT,
 	dateTookOffice DATE,
 	dateLeftOffice DATE,
-	assassinationAttempt BOOLEAN, /* 0 = false & 1 = true */
-	assassinated BOOLEAN, /* 0 = false & 1 = true */
-	religiousAffiliation TEXT), 
+	assassinationAttempt BOOLEAN,	/* 0 = false & 1 = true */
+	assassinated BOOLEAN,			/* 0 = false & 1 = true */
+	religiousAffiliation TEXT);
 
 /* US Presidents (until 2010) */
 
