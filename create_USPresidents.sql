@@ -62,4 +62,6 @@ INSERT INTO USPresidents VALUES (40, "Reagan", "Ronald", "Wilson", 40, 02/06/191
 INSERT INTO USPresidents VALUES (41, "Bush", "George", "Herbert Walker", 41, 06/12/1924, , "Milton", "Massachusetts", "Texas", "Republican", 1/20/1989, 1/20/1993, 0, 0, "Episcopalian");
 INSERT INTO USPresidents VALUES (42, "Clinton", "William", "Jefferson", 42, 8/19/1946, , "Hope", "Arkansas", "Arkansas", "Democratic", 1/20/1993, 1/20/2001, 0, 0, "Baptist");
 INSERT INTO USPresidents VALUES (43, "Bush", "George", "Walker", 43, 07/06/1946, , "New Haven", "Connecticut", "Texas", "Republican", 1/20/2001, 1/20/2009, 0, 0, "Methodist");
-INSERT INTO USPresidents VALUES (44, "Obama", "Barack", "Hussein", 44, 08/04/1961, , "Honolulu", "Hawaii", "Illinois", "Democratic", 1/20/2009, , , , "Unaffiliated Christian");
+INSERT INTO USPresidents VALUES (44, "Obama", "Barack", "Hussein", 44, 08/04/1961, , "Honolulu", "Hawaii", "Illinois", "Democratic", 1/20/2009, 1/20/2017, 1, 0, "Unaffiliated Christian");
+INSERT INTO USPresidents VALUES (45, "Trump", "Donald", "John", 45, 06/14/1946, , "New York", "New York", "New York", "Republican", 1/20/2017, 1/20/2021, 1, 0, "Unaffiliated Christian");
+INSERT INTO USPresidents VALUES (46, "Biden", "Joseph", "Robinette", 46, 11/20/1942, , "Scranton", "Pennsylvania", "Delaware", "Democratic", 1/20/2021, , , , "Unaffiliated Christian");
